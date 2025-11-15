@@ -69,7 +69,7 @@ if (picked_up && key_interact && blinking && can_throw)
 {
 	picked_up = false;
 	global.hands_full = false;
-	hsp += 10;
+	hsp += 30;
 	vsp -= 60;
 	can_throw = false;
 }
