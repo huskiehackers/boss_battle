@@ -3,6 +3,9 @@ key_interact = keyboard_check_pressed(ord("F"));
 //player is holding microwave
 if (picked_up)
 {
+	//ground so that gravity doesnt affect
+	grounded = true;
+	
 	x = player_obj.x - 5;
 	y = player_obj.y - 150;
 }
