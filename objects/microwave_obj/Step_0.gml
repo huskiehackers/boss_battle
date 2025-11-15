@@ -1,5 +1,9 @@
 key_interact = keyboard_check_pressed(ord("F"));
 
+
+///////////////mark that the microwave exists every gametick
+global.is_microwave = true;
+
 //player is holding microwave
 if (picked_up)
 {
