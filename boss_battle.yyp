@@ -35,7 +35,6 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Battlefield","path":"sprites/Battlefield/Battlefield.yy",},},
     {"id":{"name":"bearBaby","path":"sprites/bearBaby/bearBaby.yy",},},
-    {"id":{"name":"bearIdle","path":"sprites/bearIdle/bearIdle.yy",},},
     {"id":{"name":"bearPound","path":"sprites/bearPound/bearPound.yy",},},
     {"id":{"name":"bearThrow","path":"sprites/bearThrow/bearThrow.yy",},},
     {"id":{"name":"cavemanIdle","path":"sprites/cavemanIdle/cavemanIdle.yy",},},
