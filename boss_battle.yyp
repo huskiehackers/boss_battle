@@ -39,6 +39,7 @@
     {"id":{"name":"microwaveWithRat","path":"sprites/microwaveWithRat/microwaveWithRat.yy",},},
     {"id":{"name":"newBear","path":"sprites/newBear/newBear.yy",},},
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},},
+    {"id":{"name":"poundAttack","path":"sprites/poundAttack/poundAttack.yy",},},
     {"id":{"name":"rat_spr","path":"sprites/rat_spr/rat_spr.yy",},},
     {"id":{"name":"ratWalking","path":"sprites/ratWalking/ratWalking.yy",},},
     {"id":{"name":"StageOne","path":"sprites/StageOne/StageOne.yy",},},
