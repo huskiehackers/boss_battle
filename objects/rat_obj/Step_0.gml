@@ -13,14 +13,14 @@ if (walk_left)
 	//move left
 	hsp -= move_speed;	
 	//sprite faces left
-	image_xscale = -1;
+	image_xscale = -abs(image_xscale);
 }
 else
 {
 	//move right
 	hsp += move_speed;	
 	//sprite faces right
-	image_xscale = 1;
+	image_xscale = abs(image_xscale);
 }
 
 
