@@ -5,3 +5,4 @@ if (sprite_index == explosion_spr)
 {
 	global.bear_health -= 100;
 }
+
