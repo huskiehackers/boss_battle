@@ -39,6 +39,7 @@
     {"id":{"name":"microwaveWithRat","path":"sprites/microwaveWithRat/microwaveWithRat.yy",},},
     {"id":{"name":"newBear","path":"sprites/newBear/newBear.yy",},},
     {"id":{"name":"ratWalking","path":"sprites/ratWalking/ratWalking.yy",},},
+    {"id":{"name":"Battlefield","path":"sprites/Battlefield/Battlefield.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
