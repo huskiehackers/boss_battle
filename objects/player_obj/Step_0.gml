@@ -58,12 +58,14 @@ else
 
 if ( key_left )
 {
-	hsp -= move_speed;	
+	hsp -= move_speed;
+	image_xscale = -abs(image_xscale);
 }
 
 if ( key_right)
 {
 	hsp += move_speed;	
+	image_xscale = abs(image_xscale);
 }
 
 
