@@ -1,0 +1,78 @@
+key_interact = keyboard_check_pressed(ord("F"));
+
+//player is holding microwave
+if (picked_up)
+{
+	x = player_obj.x - 5;
+	y = player_obj.y - 150;
+}
+
+
+//gravity
+vsp += grv;	
+
+
+
+////////////////max speed
+vsp = clamp(vsp, -vsp_max, vsp_max);
+hsp = clamp (hsp, -hsp_max, hsp_max);
+
+
+
+
+////////////////vertical collision
+if (place_meeting(x, y + vsp, ground_obj))
+{
+	
+	while ( !place_meeting(x, y + sign(vsp), ground_obj))
+	{
+		y += sign(vsp);
+	}
+	
+	grounded = true;
+	vsp = 0;
+}
+
+else
+{
+	grounded = false;
+}
+
+
+
+//if the palyer is within range, holding a rat, and the microwave isnt full
+//and the player presses F, change sprite
+if (key_interact && distance_to_object(player_obj) < global.interact_range && global.holding_rat && !full)
+{
+	sprite_index = microwaveWithRat;
+	full = true;
+	global.holding_rat = false;
+	global.hands_full = false;
+	alarm[0] = 250;
+}
+
+//if the microwave is blinking, in range, and user interacts
+if (key_interact && distance_to_object(player_obj) < global.interact_range && blinking)
+{
+	picked_up = true;
+	
+	//alarm for when can be thrown
+	alarm[3] = 5;
+}
+
+
+
+if (picked_up && key_interact && blinking && can_throw)
+{
+	picked_up = false;
+	global.hands_full = false;
+	hsp += 10;
+	vsp -= 60;
+	can_throw = false;
+}
+
+if (!picked_up && !grounded)
+{
+x += hsp;
+y += vsp;
+}

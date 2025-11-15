@@ -10,11 +10,17 @@ ran = random_range(1, 100);
 /////////////Walking logic
 if (walk_left)
 {
+	//move left
 	hsp -= move_speed;	
+	//sprite faces left
+	image_xscale = -1;
 }
 else
 {
+	//move right
 	hsp += move_speed;	
+	//sprite faces right
+	image_xscale = 1;
 }
 
 
@@ -66,7 +72,9 @@ if (key_interact && !global.hands_full)
 	if ( distance_to_object(player_obj) <= global.interact_range && picked_up == false )
 	{
 		picked_up = true;
+		image_speed = 0;
 		global.hands_full = true;
+		global.holding_rat = true;
 		alarm[0] = 2
 	}
 
@@ -77,13 +85,13 @@ if (key_interact && !global.hands_full)
 
 if ( picked_up )
 {
-	x = player_obj.x + 2;
-	y = player_obj.y - 4;
+	x = player_obj.x + 8;
+	y = player_obj.y - 50;
 }
 
 
 //////////////////////drop rat
-if (picked_up && key_interact && can_be_thrown)
+if (picked_up && key_interact && can_be_thrown && distance_to_object(microwave_obj) >  global.interact_range)
 {
 	
 	
@@ -92,10 +100,11 @@ if (picked_up && key_interact && can_be_thrown)
 	
 	picked_up = false;
 	global.hands_full = false;
+	global.holding_rat = false;
 	can_be_thrown = false;
 	
 	//create projectile instance
-	instance_create_layer(x, y, "Instances", rat_projectile_obj );
+	instance_create_layer(x, y, "rat_layer", rat_projectile_obj );
 	
 	//destroy current instance
 	instance_destroy(self);

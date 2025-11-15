@@ -8,3 +8,4 @@ hsp = 25;
 vsp = -35;
 
 
+image_speed = 0;
