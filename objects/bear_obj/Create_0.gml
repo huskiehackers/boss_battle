@@ -1,0 +1,1 @@
+global.bear_health = 1500;
