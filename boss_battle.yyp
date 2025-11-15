@@ -40,6 +40,8 @@
     {"id":{"name":"newBear","path":"sprites/newBear/newBear.yy",},},
     {"id":{"name":"ratWalking","path":"sprites/ratWalking/ratWalking.yy",},},
     {"id":{"name":"Battlefield","path":"sprites/Battlefield/Battlefield.yy",},},
+    {"id":{"name":"bearBaby","path":"sprites/bearBaby/bearBaby.yy",},},
+    {"id":{"name":"bearIdle","path":"sprites/bearIdle/bearIdle.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
