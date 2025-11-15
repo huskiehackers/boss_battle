@@ -1,4 +1,11 @@
 
+
+//////////initalize sprite size
+image_xscale = 2;
+image_yscale = 2;
+
+
+
 grv = 3;
 grounded = false;
 jump_mod = 250.5;
