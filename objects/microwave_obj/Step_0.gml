@@ -34,6 +34,7 @@ if (place_meeting(x, y + vsp, ground_obj))
 	
 	grounded = true;
 	vsp = 0;
+	hsp = 0;
 }
 
 else
@@ -69,8 +70,12 @@ if (picked_up && key_interact && blinking && can_throw)
 {
 	picked_up = false;
 	global.hands_full = false;
-	hsp += 30;
-	vsp -= 60;
+	if(player_obj.image_xscale>0){
+		hsp = 10;
+	} else {
+		hsp = -10;
+	}
+	vsp = -30;
 	can_throw = false;
 }
 
