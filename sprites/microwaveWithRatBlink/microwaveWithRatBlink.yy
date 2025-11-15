@@ -13,14 +13,16 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"2732ca51-0072-4e08-909a-28620028d609","name":"2732ca51-0072-4e08-909a-28620028d609","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6590e472-58e6-45d0-83d8-9ddf3c3cec79","name":"6590e472-58e6-45d0-83d8-9ddf3c3cec79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"97ff951d-bd64-4a0f-a5c8-ae7721af9c15","name":"97ff951d-bd64-4a0f-a5c8-ae7721af9c15","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d5cc7cc9-d8d5-4bb9-bb40-6c04c7b2ea81","name":"d5cc7cc9-d8d5-4bb9-bb40-6c04c7b2ea81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ff72dfea-21fe-49f9-96f6-df8563449cb9","blendMode":0,"displayName":"Electricity","isLocked":false,"name":"ff72dfea-21fe-49f9-96f6-df8563449cb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"ff72dfea-21fe-49f9-96f6-df8563449cb9","blendMode":0,"displayName":"Electricity","isLocked":false,"name":"ff72dfea-21fe-49f9-96f6-df8563449cb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a6cd419a-8c7d-46a7-80e8-fe0aaff2d230","blendMode":0,"displayName":"rat","isLocked":false,"name":"a6cd419a-8c7d-46a7-80e8-fe0aaff2d230","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6ec15cad-5013-4590-8930-c8719e71abd4","blendMode":0,"displayName":"default","isLocked":false,"name":"6ec15cad-5013-4590-8930-c8719e71abd4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -52,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -62,7 +64,7 @@
     },
     "name":"microwaveWithRatBlink",
     "playback":1,
-    "playbackSpeed":4.0,
+    "playbackSpeed":8.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -75,8 +77,14 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2732ca51-0072-4e08-909a-28620028d609","path":"sprites/microwaveWithRatBlink/microwaveWithRatBlink.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9d3e8958-1cf9-4f9e-9a34-738f06a480c1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6590e472-58e6-45d0-83d8-9ddf3c3cec79","path":"sprites/microwaveWithRatBlink/microwaveWithRatBlink.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5e7d2232-e962-4b53-b6d6-e0c632e9f649","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97ff951d-bd64-4a0f-a5c8-ae7721af9c15","path":"sprites/microwaveWithRatBlink/microwaveWithRatBlink.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0acbb52f-93a7-48b8-91bc-ca5029f7b9ff","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"0acbb52f-93a7-48b8-91bc-ca5029f7b9ff","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5cc7cc9-d8d5-4bb9-bb40-6c04c7b2ea81","path":"sprites/microwaveWithRatBlink/microwaveWithRatBlink.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38446443-dcbd-4afb-91bd-a92f32983af3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
