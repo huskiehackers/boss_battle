@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"StageOne",
-    "path":"sprites/StageOne/StageOne.yy",
+    "name":"bearIdle",
+    "path":"sprites/bearIdle/bearIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
