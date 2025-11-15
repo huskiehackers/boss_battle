@@ -17,5 +17,6 @@ blinking = false;
 can_pickup = false;
 can_throw = false;
 picked_up = false;
+damaged_bear = false;
 
 
