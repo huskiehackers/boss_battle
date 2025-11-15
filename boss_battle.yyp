@@ -37,6 +37,7 @@
     {"id":{"name":"bearBaby","path":"sprites/bearBaby/bearBaby.yy",},},
     {"id":{"name":"cavemanIdle","path":"sprites/cavemanIdle/cavemanIdle.yy",},},
     {"id":{"name":"cavemanWalking","path":"sprites/cavemanWalking/cavemanWalking.yy",},},
+    {"id":{"name":"explosion_spr","path":"sprites/explosion_spr/explosion_spr.yy",},},
     {"id":{"name":"ground_spr","path":"sprites/ground_spr/ground_spr.yy",},},
     {"id":{"name":"microwave","path":"sprites/microwave/microwave.yy",},},
     {"id":{"name":"microwaveWithRat","path":"sprites/microwaveWithRat/microwaveWithRat.yy",},},
