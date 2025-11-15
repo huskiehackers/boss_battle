@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"player_spr",
-    "path":"sprites/player_spr/player_spr.yy",
+    "name":"cavemanWalking",
+    "path":"sprites/cavemanWalking/cavemanWalking.yy",
   },
   "spriteMaskId":null,
   "visible":true,
