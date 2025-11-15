@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"Battlefield",
   "bboxMode":0,
-  "bbox_bottom":179,
+  "bbox_bottom":1079,
   "bbox_left":0,
-  "bbox_right":319,
+  "bbox_right":1919,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":180,
+  "height":1080,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"9d3d9ef9-c592-42d6-80ce-f40bfd8753a0","blendMode":1,"displayName":"Filter","isLocked":false,"name":"9d3d9ef9-c592-42d6-80ce-f40bfd8753a0","opacity":23.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
@@ -93,5 +93,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":320,
+  "width":1920,
 }
