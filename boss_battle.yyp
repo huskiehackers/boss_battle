@@ -58,7 +58,6 @@
     {"id":{"name":"BattleVolcano","path":"sprites/BattleVolcano/BattleVolcano.yy",},},
     {"id":{"name":"bear_roll_spr","path":"sprites/bear_roll_spr/bear_roll_spr.yy",},},
     {"id":{"name":"bearBaby","path":"sprites/bearBaby/bearBaby.yy",},},
-    {"id":{"name":"bearBabyHurt","path":"sprites/bearBabyHurt/bearBabyHurt.yy",},},
     {"id":{"name":"bearPoundStageOne","path":"sprites/bearPoundStageOne/bearPoundStageOne.yy",},},
     {"id":{"name":"bearPoundStageThree","path":"sprites/bearPoundStageThree/bearPoundStageThree.yy",},},
     {"id":{"name":"bearPoundStageTwo","path":"sprites/bearPoundStageTwo/bearPoundStageTwo.yy",},},
