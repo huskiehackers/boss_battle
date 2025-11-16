@@ -77,7 +77,7 @@ if (instance_exists(microwave_obj))
 if (instance_exists(microwave_obj))
 {
 
-	if ( distance_to_object(microwave_obj) < 2 && can_pickup  )
+	if ( distance_to_object(microwave_obj) < 2 && can_pickup  && microwave_obj.sprite_index != microwaveSpawn )
 	{
 	
 		holding_microwave = true;
@@ -117,6 +117,7 @@ if (holding_microwave && distance_to_object(player_obj) < 5)
 		holding_microwave = false;
 		can_pickup = false;
 		run_away = true;
+		player_obj.vsp = - 120;
 	}
 }
 

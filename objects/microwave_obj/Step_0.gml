@@ -55,13 +55,16 @@ else
 
 
 //if the palyer is within range, holding a rat, and the microwave isnt full
-//and the player presses F, change sprite
-if (key_interact && distance_to_object(player_obj) < global.interact_range && global.holding_rat && !full)
+//and the player presses F, and the sprite isnt portal change sprite
+if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && global.holding_rat && !full)
 {
 	sprite_index = microwaveWithRat;
 	full = true;
 	global.holding_rat = false;
 	global.hands_full = false;
+	
+	//delete the nearest rat that is pickedup
+	instance_destroy( instance_nearest(player_obj.x, player_obj.y - 50, rat_obj)  )
 	
 	//alarm to be able to pickup the microwave
 	alarm[4] = 10;
@@ -71,7 +74,7 @@ if (key_interact && distance_to_object(player_obj) < global.interact_range && gl
 }
 
 //if the microwave is full, in range, and user interacts
-if (key_interact && distance_to_object(player_obj) < global.interact_range && full && can_pickup)
+if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && full && can_pickup)
 {
 	picked_up = true;
 	can_throw = false;

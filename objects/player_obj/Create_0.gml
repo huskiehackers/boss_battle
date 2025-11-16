@@ -3,7 +3,7 @@ grv = 3;
 grounded = false;
 jump_mod = 250.5;
 jump = -50;
-vsp_max = 70;
+vsp_max = 120;
 hsp = 0;
 vsp = 0;
 
