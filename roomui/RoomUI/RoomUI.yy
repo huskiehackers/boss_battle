@@ -1,0 +1,23 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+            {"$GMRSpriteGraphic":"v1","%Name":"HealthSprite1","animationSpeed":0.8,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"HealthSprite1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1,"scaleY":1.1,"spriteId":{"name":"cavemanIdle","path":"sprites/cavemanIdle/cavemanIdle.yy",},"x":-850.0,"y":-325.0,},
+            {"$GMRSpriteGraphic":"v1","%Name":"HealthSprite2","animationSpeed":0.8,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"HealthSprite2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1,"scaleY":1.1,"spriteId":{"name":"cavemanIdle","path":"sprites/cavemanIdle/cavemanIdle.yy",},"x":-744.4,"y":-325.0,},
+            {"$GMRSpriteGraphic":"v1","%Name":"HealthSprite3","animationSpeed":0.8,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"HealthSprite3","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1,"scaleY":1.1,"spriteId":{"name":"cavemanIdle","path":"sprites/cavemanIdle/cavemanIdle.yy",},"x":-638.80005,"y":-325.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4282970834,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4285483250,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"boss_battle",
+    "path":"boss_battle.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}
