@@ -3,5 +3,5 @@
 //the player dies
 if (sprite_index == explosion_spr)
 {
-	instance_destroy(player_obj);	
+	global.player_health -= 1;	
 }
