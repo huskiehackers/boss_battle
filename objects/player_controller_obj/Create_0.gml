@@ -7,7 +7,7 @@ hs2 = noone;
 hs3 = noone;
 
 // find health hearts
-with (Obj_health) {
+with (health_object) {
     if (is_health_sprite) {
         switch (health_index) {
             case 1: other.hs1 = id; break;
