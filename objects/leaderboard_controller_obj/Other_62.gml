@@ -14,6 +14,7 @@ if (received_id == request_id) {
         for (var i = 0; i < count; i++) {
             var entry = data[i];
             array_push(leaderboard, {
+				player_rank: entry.rank,
                 player_name: entry.player_name,
                 player_score: entry.player_score
             });
