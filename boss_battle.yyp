@@ -41,6 +41,7 @@
     {"id":{"name":"bearBaby","path":"sprites/bearBaby/bearBaby.yy",},},
     {"id":{"name":"bearPound","path":"sprites/bearPound/bearPound.yy",},},
     {"id":{"name":"bearThrow","path":"sprites/bearThrow/bearThrow.yy",},},
+    {"id":{"name":"boulder","path":"sprites/boulder/boulder.yy",},},
     {"id":{"name":"cavemanIdle","path":"sprites/cavemanIdle/cavemanIdle.yy",},},
     {"id":{"name":"cavemanWalking","path":"sprites/cavemanWalking/cavemanWalking.yy",},},
     {"id":{"name":"explosion_spr","path":"sprites/explosion_spr/explosion_spr.yy",},},
@@ -55,8 +56,6 @@
     {"id":{"name":"StageOne","path":"sprites/StageOne/StageOne.yy",},},
     {"id":{"name":"StageThree","path":"sprites/StageThree/StageThree.yy",},},
     {"id":{"name":"StageTwo","path":"sprites/StageTwo/StageTwo.yy",},},
-    {"id":{"name":"boulder","path":"sprites/boulder/boulder.yy",},},
-
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
