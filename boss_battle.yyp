@@ -52,7 +52,8 @@
     {"id":{"name":"shockwave_obj","path":"objects/shockwave_obj/shockwave_obj.yy",},},
     {"id":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
+    {"id":{"name":"WinRoom_fixed","path":"rooms/WinRoom_fixed/WinRoom_fixed.yy",},},
+    {"id":{"name":"WinRoomOld","path":"rooms/WinRoomOld/WinRoomOld.yy",},},
     {"id":{"name":"explode","path":"sounds/explode/explode.yy",},},
     {"id":{"name":"microbeep","path":"sounds/microbeep/microbeep.yy",},},
     {"id":{"name":"microbuzz","path":"sounds/microbuzz/microbuzz.yy",},},
@@ -97,8 +98,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
+    {"roomId":{"name":"WinRoomOld","path":"rooms/WinRoomOld/WinRoomOld.yy",},},
     {"roomId":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
+    {"roomId":{"name":"WinRoom_fixed","path":"rooms/WinRoom_fixed/WinRoom_fixed.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
