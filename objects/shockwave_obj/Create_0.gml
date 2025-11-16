@@ -1,5 +1,5 @@
 //variables
-hsp = -12;
+hsp = -22;
 hsp_max = 300;
 can_damage = true;
 
