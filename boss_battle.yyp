@@ -64,6 +64,8 @@
     {"id":{"name":"StageOne","path":"sprites/StageOne/StageOne.yy",},},
     {"id":{"name":"StageThree","path":"sprites/StageThree/StageThree.yy",},},
     {"id":{"name":"StageTwo","path":"sprites/StageTwo/StageTwo.yy",},},
+    {"id":{"name":"boulder","path":"sprites/boulder/boulder.yy",},},
+
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
