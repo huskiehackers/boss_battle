@@ -1,8 +1,8 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_up = keyboard_check_pressed(ord("W"));
-key_up_held = keyboard_check(ord("W"));
-key_interact = keyboard_check_pressed(ord("F"));
+key_up = keyboard_check_pressed(vk_space);
+key_up_held = keyboard_check(vk_space);
+key_interact = keyboard_check_pressed(ord("W"));
 
 
 

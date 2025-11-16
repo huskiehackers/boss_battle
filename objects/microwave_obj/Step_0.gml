@@ -1,4 +1,4 @@
-key_interact = keyboard_check_pressed(ord("F"));
+key_interact = keyboard_check_pressed(ord("W"));
 
 
 ///////////////mark that the microwave exists every gametick
@@ -16,12 +16,8 @@ if (picked_up)
 	//ground so that gravity doesnt affect
 	grounded = true;
 	
-	if ( instance_exists(player_obj) )
-	{
-		x = player_obj.x - 5;
-		y = player_obj.y - 150;
-	}
-	
+	x = player_obj.x - 5;
+	y = player_obj.y - 150;
 }
 
 
@@ -63,6 +59,7 @@ else
 if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && global.holding_rat && !full)
 {
 	sprite_index = microwaveWithRat;
+	audio_play_sound(microbuzz,0,false);
 	full = true;
 	global.holding_rat = false;
 	global.hands_full = false;
@@ -83,6 +80,8 @@ if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_
 	picked_up = true;
 	can_throw = false;
 	can_pickup = false;
+	
+	global.hands_full = true;
 	
 	//alarm for when can be thrown
 	alarm[3] = 5;

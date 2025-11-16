@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"microbuzz",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.804989,
+  "exportDir":"",
+  "name":"microbuzz",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Main/Audios/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"microbuzz.mp3",
+  "volume":1.0,
+}
