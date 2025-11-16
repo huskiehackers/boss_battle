@@ -106,7 +106,11 @@ if (instance_exists(microwave_obj))
 if (holding_microwave && distance_to_object(player_obj) < 5)
 {
 		//finds the angle in degrees between player and baby
-	if ( point_direction(x, y, player_obj.x, player_obj.y) > 45 && point_direction(x, y, player_obj.x, player_obj.y) < 135 )
+		/////////////IMPORTANT NOTE: 
+		/////////////If the drop mechanic isnt working properly, tweak the required value of the
+		/////////////players vsp. This ensures the player gets a good fall going before hitting the
+		//////////// baby, otherwise it behaves weirdly.
+	if ( point_direction(x, y, player_obj.x, player_obj.y) > 45 && point_direction(x, y, player_obj.x, player_obj.y) < 135 && player_obj.vsp >= player_obj.vsp_max / 3 )
 	{
 		holding_microwave = false;
 		can_pickup = false;
