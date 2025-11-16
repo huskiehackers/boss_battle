@@ -117,6 +117,7 @@ if (holding_microwave && distance_to_object(player_obj) < 5)
 		holding_microwave = false;
 		can_pickup = false;
 		run_away = true;
+		player_obj.grounded = true;
 		player_obj.vsp = - 120;
 		baby_obj.image_blend = make_colour_rgb(200,0,0)
 		alarm[1]=5
