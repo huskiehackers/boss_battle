@@ -6,5 +6,5 @@ if (keyboard_key == vk_backspace) {
 }
 else if (keyboard_key >= ord(" ") && keyboard_key <= ord("~")) {
     // Allow normal text characters
-    player_name += key;
+    player_name += string_upper(key);
 }

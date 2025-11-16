@@ -1,10 +1,11 @@
+show_debug_message("Recieved HTTP")
 var received_id = async_load[? "id"];
 
 if (received_id == request_id) {
     if (async_load[? "status"] == 0) {
         // Success
         var raw = async_load[? "result"];
-        debug_event(raw)
+        show_debug_message(raw)
         // Parse JSON
         var data = json_parse(raw);
 
@@ -19,6 +20,8 @@ if (received_id == request_id) {
                 player_score: entry.player_score
             });
         }
+		ready_to_render=true
+		global.submitted=true
     } else {
         show_debug_message("Leaderboard request failed.");
     }

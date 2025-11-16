@@ -1,13 +1,5 @@
-// Name field click detection
-if (mouse_x > 50 && mouse_x < 350 && mouse_y > 80 && mouse_y < 120) {
-    selected_field = "name";
-}
-
-// Submit button
-if (mouse_x > 50 && mouse_x < 200 && mouse_y > 180 && mouse_y < 220) {
-    submit_to_manager();
-	show_debug_log("Submitted")
-}
+submit_to_manager();
+show_debug_message("Submitted")
 
 function submit_to_manager() {
 
