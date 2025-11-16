@@ -1,5 +1,6 @@
 
 bear_on_right = true;
+current_attack = 0;
 
-global.bear_attacking = false;
+
 can_attack = true;

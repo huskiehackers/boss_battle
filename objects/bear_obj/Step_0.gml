@@ -11,7 +11,7 @@ if (!global.bear_attacking && can_attack == true)
 		
 		if (ran_num == 1)
 		{
-			attack_1();	
+			current_attack = 1;
 		}
 		
 		global.bear_attacking = true;
@@ -21,41 +21,24 @@ if (!global.bear_attacking && can_attack == true)
 }
 
 
-
-
-//the function for the first attack
-function attack_1()
+//if bear on left, flip scale
+if (!global.bear_on_right)
 {
-	//if the bear is on the right,
-	//move left
-	if (x > bear_left_lim.x && bear_on_right)
-	{
-		x -= 50;	
-	}
-	
-	//if the bear is on the left,
-	//move right
-	else if (x < bear_right_lim && !bear_on_right)
-	{
-		x += 50;	
-	}
-	
-	
-	
-	//if the bear has reached the left side,
-	//set bear_on_right false
-	if (bear_on_right && x <= bear_left_lim )
-	{
-		bear_on_right = false;	
-	}
-	
-	//if bear reacjed rigt side,
-	//set bear_on_right true
-	if (!bear_on_right && x >= bear_right_lim)
-	{
-		bear_on_right = true;	
-	}
-	
-	
-	
+	image_xscale = -1;
 }
+
+
+
+
+
+
+
+//Atack 1
+if (current_attack == 1)
+{
+	instance_create_layer(x, y, "Instances", bear_roll_obj);
+	instance_destroy(self);
+}
+
+
+
