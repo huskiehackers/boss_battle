@@ -1,4 +1,4 @@
-key_interact = keyboard_check_pressed(ord("W"));
+key_interact = keyboard_check_pressed(ord("F"));
 
 
 ///////////////mark that the microwave exists every gametick
@@ -75,13 +75,11 @@ if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_
 }
 
 //if the microwave is full, in range, and user interacts
-if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && full && can_pickup && !global.hands_full)
+if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && full && can_pickup)
 {
 	picked_up = true;
 	can_throw = false;
 	can_pickup = false;
-	
-	global.hands_full = true;
 	
 	//alarm for when can be thrown
 	alarm[3] = 5;

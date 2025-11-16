@@ -9,4 +9,4 @@ audio_stop_sound(microbuzz);
 audio_play_sound(microbeep,0,false);
 
 //Set alarm for microwave to explode
-alarm[1] = 100;
+alarm[1] = 200;
