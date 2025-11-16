@@ -3,25 +3,78 @@ key_interact = keyboard_check_pressed(ord("F"));
 ran = random_range(1, 100);
 
 
-
-
-
-
 /////////////Walking logic
-if (walk_left)
+
+//player is on the left, run right
+if (holding_microwave && x < bear_right_lim.x && !baby_on_right)
 {
-	//move left
-	hsp -= move_speed;	
-	//sprite faces left
-	image_xscale = -abs(image_xscale);
+	hsp += move_speed;
 }
-else
+
+//player is on the right, run left
+if (holding_microwave && x > bear_left_lim.x && baby_on_right)
 {
-	//move right
-	hsp += move_speed;	
-	//sprite faces right
-	image_xscale = abs(image_xscale);
+	hsp -= move_speed;
 }
+
+
+if ( baby_on_right && x <= bear_left_lim.x )
+{
+	baby_on_right = false;
+}
+
+if (!baby_on_right && x >= bear_right_lim.x)
+{
+	baby_on_right = true;	
+}
+
+
+
+//walk left toward microwave
+if (instance_exists(microwave_obj))
+{
+	if ( microwave_obj.x < x  && !holding_microwave)
+	{
+		//move left
+		hsp -= move_speed;	
+		//sprite faces left
+		image_xscale = -abs(image_xscale);
+	}
+
+	//walk right toward microwave
+	else if (microwave_obj.x > x && !holding_microwave)
+	{
+		//move right
+		hsp += move_speed;	
+		//sprite faces right
+		image_xscale = abs(image_xscale);
+	}
+
+}
+
+//baby picks up microwave when close enough
+
+//outer if statement for debugging
+if (instance_exists(microwave_obj))
+{
+
+	if ( distance_to_object(microwave_obj) < 2  )
+	{
+	
+		holding_microwave = true;
+		microwave_obj.x = x;
+		microwave_obj.y = y - 125;
+	
+		//mute microwaves gravity while baby is holding
+		microwave_obj.grv = 0;
+	}
+
+}
+
+//when the baby leaves the screen, set a timer before
+//deleting the microwave.
+//then delete the baby
+
 
 
 
@@ -64,51 +117,8 @@ else
 
 
 
-///////////////////pick up rat
-if (key_interact && !global.hands_full)
-{
-
-	//check if the user is within range
-	if ( distance_to_object(player_obj) <= global.interact_range && picked_up == false )
-	{
-		picked_up = true;
-		image_speed = 0;
-		global.hands_full = true;
-		global.holding_rat = true;
-		alarm[0] = 2
-	}
 
 
-	
-}
-
-
-if ( picked_up )
-{
-	x = player_obj.x + 8;
-	y = player_obj.y - 50;
-}
-
-
-//////////////////////drop rat
-if (picked_up && key_interact && can_be_thrown && distance_to_object(microwave_obj) >  global.interact_range)
-{
-	
-	
-	
-	
-	
-	picked_up = false;
-	global.hands_full = false;
-	global.holding_rat = false;
-	can_be_thrown = false;
-	
-	//create projectile instance
-	instance_create_layer(x, y, "rat_layer", rat_projectile_obj );
-	
-	//destroy current instance
-	instance_destroy(self);
-}
 
 
 /////////////////process hsp and vsp

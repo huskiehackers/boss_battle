@@ -1,14 +1,18 @@
-move_speed = 3;
+move_speed = 6;
 grv = 3;
 grounded = false;
 jump_mod = 250.5;
 jump = -50;
 vsp_max = 70;
-hsp_max = 2;
+hsp_max = 12;
 hsp = 0;
 vsp = 0;
 can_change_direction = true;
 walk_left = false;
+
+baby_on_right = true;
+
+holding_microwave = false;
 
 ran_num = random_range(1, 10);
 if (ran_num % 2 == 0)

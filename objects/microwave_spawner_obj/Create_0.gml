@@ -1,2 +1,3 @@
-global.is_microwave = false;
+alarm[0] = 10;
+game_initialized = false
 
