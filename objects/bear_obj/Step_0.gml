@@ -13,12 +13,12 @@ if (global.bear_stage == 1)
 	sprite_index = StageOne;	
 }
 
-if (global.bear_stage == 2)
+if (global.bear_stage == 2 && sprite_index != bearReleaseTheBabyStageTwo)
 {
 	sprite_index = StageTwo;
 }
 
-if (global.bear_stage == 3)
+if (global.bear_stage == 3 && sprite_index != bearReleaseTheBabyStageThree)
 {
 	sprite_index = StageThree;
 }
@@ -88,11 +88,20 @@ if (current_attack == 2)
 
 
 //release the baby 
-if ( global.bear_stage >= 2 && global.baby_can_spawn)
+
+if ( global.bear_stage == 2 && global.baby_can_spawn)
 {
-	instance_create_layer(x, y - 50, "rat_layer", baby_obj);
-	global.baby_can_spawn = false;
 	
+	global.baby_can_spawn = false;
+	sprite_index = bearReleaseTheBabyStageTwo
+	
+}
+
+if ( global.bear_stage == 2 && global.baby_can_spawn)
+{
+	
+	global.baby_can_spawn = false;
+	sprite_index = bearReleaseTheBabyStageThree
 	
 }
 

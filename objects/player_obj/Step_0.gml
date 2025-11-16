@@ -1,11 +1,36 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_up = keyboard_check_pressed(ord("W"));
-key_up_held = keyboard_check(ord("W"));
-key_interact = keyboard_check_pressed(ord("F"));
+key_up = keyboard_check_pressed(vk_space);
+key_up_held = keyboard_check(vk_space);
+key_interact = keyboard_check_pressed(ord("W"));
 
 
 
+
+//when get hurt, change sprite flash red
+if ( global.player_health == 2 && damaged1 == false )
+{
+	//change sprite, flash red
+	sprite_index = manHurt;
+	self.image_blend = make_colour_rgb(200,0,0)
+	alarm[0] = 5;
+	damaged1 = true;
+	
+		
+}
+
+
+//when get hurt, change sprite flash red
+if ( global.player_health == 1 && damaged2 == false )
+{
+	//change sprite, flash red
+	sprite_index = manHurt;
+	self.image_blend = make_colour_rgb(200,0,0)
+	alarm[0] = 5;
+	damaged2 = true;
+	
+		
+}
 
 
 
