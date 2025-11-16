@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"rat_spr",
-    "path":"sprites/rat_spr/rat_spr.yy",
+    "name":"ratWalking",
+    "path":"sprites/ratWalking/ratWalking.yy",
   },
   "spriteMaskId":null,
   "visible":true,

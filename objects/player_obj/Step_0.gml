@@ -58,12 +58,14 @@ else
 
 if ( key_left )
 {
-	x -= move_speed;	
+	hsp -= move_speed;
+	image_xscale = -abs(image_xscale);
 }
 
 if ( key_right)
 {
-	x += move_speed;	
+	hsp += move_speed;	
+	image_xscale = abs(image_xscale);
 }
 
 
@@ -77,3 +79,14 @@ if ( key_right)
 x += hsp;
 y += vsp;
 
+
+if (hsp == 0)
+{
+	sprite_index = cavemanIdle;
+}
+else
+{
+	sprite_index = cavemanWalking;
+}
+
+hsp = 0;
