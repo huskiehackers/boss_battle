@@ -24,6 +24,7 @@
   "height":256,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"a0a504c1-51cd-4664-b43c-a3ebba9eb7e6","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"a0a504c1-51cd-4664-b43c-a3ebba9eb7e6","opacity":44.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"4c9a01a1-16a7-49b2-9e0f-4bdda0758aaf","blendMode":0,"displayName":"default","isLocked":false,"name":"4c9a01a1-16a7-49b2-9e0f-4bdda0758aaf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"shockwave_spr",

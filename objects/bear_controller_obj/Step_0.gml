@@ -32,7 +32,8 @@ if (global.bear_health <= 500)
 //If the bear is on stage three, the volcano erupts
 if (global.bear_stage == 3)
 {
-	global.eruption = true;	
+	global.eruption = true;
+	layer_background_sprite(layer_background_get_id("Background"), BattleVolcano);
 }
 
 

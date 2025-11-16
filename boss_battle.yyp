@@ -50,6 +50,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"bearhurt1","path":"sounds/bearhurt1/bearhurt1.yy",},},
+    {"id":{"name":"beartransition","path":"sounds/beartransition/beartransition.yy",},},
     {"id":{"name":"explode","path":"sounds/explode/explode.yy",},},
     {"id":{"name":"microbeep","path":"sounds/microbeep/microbeep.yy",},},
     {"id":{"name":"microbuzz","path":"sounds/microbuzz/microbuzz.yy",},},

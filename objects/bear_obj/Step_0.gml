@@ -11,16 +11,19 @@ if (global.bear_health <= 0)
 if (global.bear_stage == 1)
 {
 	sprite_index = StageOne;	
+	audio_play_sound(beartransition,0,false);
 }
 
 if (global.bear_stage == 2)
 {
 	sprite_index = StageTwo;
+	audio_play_sound(beartransition,0,false);
 }
 
 if (global.bear_stage == 3)
 {
-	sprite_index = StageThree;	
+	sprite_index = StageThree;
+	audio_play_sound(beartransition,0,false);
 }
 
 
