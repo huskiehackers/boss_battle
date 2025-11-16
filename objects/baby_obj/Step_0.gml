@@ -6,30 +6,30 @@ ran = random_range(1, 100);
 /////////////Walking logic
 
 //while holding microwave, strafe right until edge
-if (holding_microwave && x < bear_right_lim.x && !baby_on_right)
+if (holding_microwave && x < bear_right_lim.x - 100 && !baby_on_right)
 {
 	hsp += move_speed;
 }
 
 //while holding microwave, strade left until edge
-if (holding_microwave && x > bear_left_lim.x && baby_on_right)
+if (holding_microwave && x > bear_left_lim.x + 100 && baby_on_right)
 {
 	hsp -= move_speed;
 }
 
 
-if ( baby_on_right && x <= bear_left_lim.x )
+if ( baby_on_right && x <= bear_left_lim.x + 100 )
 {
 	baby_on_right = false;
 }
 
-if (!baby_on_right && x >= bear_right_lim.x)
+if (!baby_on_right && x >= bear_right_lim.x - 100)
 {
 	baby_on_right = true;	
 }
 
 
-
+//////Run away logic
 //player is on your left, run right
 if (run_away && player_obj.x < x)
 {
@@ -41,6 +41,8 @@ if (run_away && player_obj.x >= x)
 {
 	hsp -= move_speed
 }
+
+
 
 
 
