@@ -3,6 +3,7 @@ hsp = -22;
 hsp_max = 300;
 can_damage = true;
 
+audio_play_sound(groundpound,0,false);
 //set an alarm to destroy this object for cleanup purposes
 alarm[0] = 200;
 
