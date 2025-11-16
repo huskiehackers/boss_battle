@@ -7,9 +7,6 @@ vsp_max = 120;
 hsp = 0;
 vsp = 0;
 
-damaged1 = false;
-damaged2 = false;
-
 global.interact_range = 10;
 global.hands_full = false;
 global.holding_rat = false;

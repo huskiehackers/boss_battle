@@ -1,4 +1,4 @@
-key_interact = keyboard_check_pressed(ord("W"));
+key_interact = keyboard_check_pressed(ord("F"));
 
 ran = random_range(1, 100);
 
@@ -71,43 +71,16 @@ if (key_interact && !global.hands_full)
 	//check if the user is within range
 	if ( distance_to_object(player_obj) <= global.interact_range && picked_up == false )
 	{
-		//if the microwave exists, check that the player is not in range of it it
-		if ( instance_exists(microwave_obj && instance_exists(player_obj)) )
-		{
-			if ( point_distance(microwave_obj.x, microwave_obj.y, player_obj.x, player_obj.y) > global.interact_range )	
-			{
-				picked_up = true;
-				image_speed = 0;
-				global.hands_full = true;
-				global.holding_rat = true;
-				alarm[0] = 2
-			}
-		}
-		
-		else
-		{
-			
-			
-			
-			
-			picked_up = true;
-			image_speed = 0;
-			global.hands_full = true;
-			global.holding_rat = true;
-			alarm[0] = 2
-			
-			
-			
-			
-		}
+		picked_up = true;
+		image_speed = 0;
+		global.hands_full = true;
+		global.holding_rat = true;
+		alarm[0] = 2
 	}
-		
-		
-}
 
 
 	
-
+}
 
 
 if ( picked_up )
