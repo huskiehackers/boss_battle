@@ -59,6 +59,7 @@
     {"id":{"name":"bearhurt","path":"sounds/bearhurt/bearhurt.yy",},},
     {"id":{"name":"beartransition","path":"sounds/beartransition/beartransition.yy",},},
     {"id":{"name":"explode","path":"sounds/explode/explode.yy",},},
+    {"id":{"name":"groundpound","path":"sounds/groundpound/groundpound.yy",},},
     {"id":{"name":"manhurt","path":"sounds/manhurt/manhurt.yy",},},
     {"id":{"name":"microbeep","path":"sounds/microbeep/microbeep.yy",},},
     {"id":{"name":"microbuzz","path":"sounds/microbuzz/microbuzz.yy",},},
