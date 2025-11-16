@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"bear_obj",
+  "%Name":"bear_right_lim",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"bear_obj",
+  "name":"bear_right_lim",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"StageTwo",
-    "path":"sprites/StageTwo/StageTwo.yy",
+    "name":"player_spr",
+    "path":"sprites/player_spr/player_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
