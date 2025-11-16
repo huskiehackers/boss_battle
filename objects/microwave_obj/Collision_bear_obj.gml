@@ -7,5 +7,7 @@ if (sprite_index == explosion_spr && damaged_bear = false)
 	bear_obj.image_blend = make_colour_rgb(200,0,0)
 	alarm[5]=5
 	damaged_bear = true;
+	
+	audio_play_sound(bearhurt,0,false);
 }
 
