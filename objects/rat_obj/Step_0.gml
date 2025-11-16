@@ -5,7 +5,10 @@ ran = random_range(1, 100);
 
 
 
-
+if (x < -30 || x >1920)
+{
+	instance_destroy(self);
+}
 
 /////////////Walking logic
 if (walk_left && distance_to_object(bear_left_lim > 200))
