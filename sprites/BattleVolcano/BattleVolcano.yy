@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"BattleVolcano",
   "bboxMode":0,
-  "bbox_bottom":179,
+  "bbox_bottom":1079,
   "bbox_left":0,
-  "bbox_right":319,
+  "bbox_right":1919,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -43,7 +43,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":180,
+  "height":1080,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"21dc4f30-6d3b-4212-90d9-8a59af32fc1c","blendMode":3,"displayName":"Layer 2","isLocked":false,"name":"21dc4f30-6d3b-4212-90d9-8a59af32fc1c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -202,5 +202,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":320,
+  "width":1920,
 }
