@@ -41,3 +41,12 @@ if (current_attack == 1)
 
 
 
+//release the baby 
+if ( global.bear_stage >= 2 && global.baby_can_spawn)
+{
+	instance_create_layer(x, y - 50, "Instances", baby_obj);
+	
+	
+}
+
+

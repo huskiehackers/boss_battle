@@ -27,6 +27,7 @@
   },
   "name":"boss_battle",
   "resources":[
+    {"id":{"name":"baby_obj","path":"objects/baby_obj/baby_obj.yy",},},
     {"id":{"name":"bear_controller_obj","path":"objects/bear_controller_obj/bear_controller_obj.yy",},},
     {"id":{"name":"bear_left_lim","path":"objects/bear_left_lim/bear_left_lim.yy",},},
     {"id":{"name":"bear_obj","path":"objects/bear_obj/bear_obj.yy",},},
