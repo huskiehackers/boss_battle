@@ -52,6 +52,7 @@
     {"id":{"name":"holeWIthOutRat","path":"sprites/holeWIthOutRat/holeWIthOutRat.yy",},},
     {"id":{"name":"holeWithRat","path":"sprites/holeWithRat/holeWithRat.yy",},},
     {"id":{"name":"lavaRock","path":"sprites/lavaRock/lavaRock.yy",},},
+    {"id":{"name":"manHurt","path":"sprites/manHurt/manHurt.yy",},},
     {"id":{"name":"microwave","path":"sprites/microwave/microwave.yy",},},
     {"id":{"name":"microwaveWithRat","path":"sprites/microwaveWithRat/microwaveWithRat.yy",},},
     {"id":{"name":"microwaveWithRatBlink","path":"sprites/microwaveWithRatBlink/microwaveWithRatBlink.yy",},},
