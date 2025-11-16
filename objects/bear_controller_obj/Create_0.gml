@@ -6,5 +6,9 @@ global.bear_attacking = true;
 alarm[1] = 200;
 
 
+//this generates a new random seed each run,
+//to prevent repeated random values
+randomise()
+
 
 alarm_0_set = false;
