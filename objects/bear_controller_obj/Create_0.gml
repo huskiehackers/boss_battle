@@ -1,5 +1,5 @@
 global.bear_on_right = true;
-global.bear_stage = 3;
+global.bear_stage = 1;
 global.baby_can_spawn = true;
 global.eruption = false;
 //true by default, set alarm for when first attack can happen

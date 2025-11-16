@@ -10,6 +10,20 @@ if (global.bear_attacking && alarm_0_set == false)
 
 
 
+//track stages based on health
+if (global.bear_health <= 1000)
+{
+	global.bear_stage = 2;	
+}
+if (global.bear_health <= 500)
+{
+	global.bear_stage = 3;	
+}
+
+
+
+
+
 
 //If the bear is on stage three, the volcano erupts
 if (global.bear_stage == 3)
