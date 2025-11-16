@@ -13,6 +13,10 @@ walk_left = false;
 baby_on_right = true;
 
 holding_microwave = false;
+can_pickup = true;
+run_away = false;
+
+
 
 ran_num = random_range(1, 10);
 if (ran_num % 2 == 0)
@@ -24,7 +28,7 @@ else
 	walk_left = false;	
 }
 
-alarm[1] = random_range(15, 200);
+
 
 
 
