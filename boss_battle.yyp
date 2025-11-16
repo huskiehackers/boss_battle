@@ -50,6 +50,7 @@
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Battlefield","path":"sprites/Battlefield/Battlefield.yy",},},
+    {"id":{"name":"BattleVolcano","path":"sprites/BattleVolcano/BattleVolcano.yy",},},
     {"id":{"name":"bear_roll_spr","path":"sprites/bear_roll_spr/bear_roll_spr.yy",},},
     {"id":{"name":"bearBaby","path":"sprites/bearBaby/bearBaby.yy",},},
     {"id":{"name":"bearPoundStageOne","path":"sprites/bearPoundStageOne/bearPoundStageOne.yy",},},
