@@ -11,17 +11,19 @@ if (global.bear_attacking && alarm_0_set == false)
 
 
 //track stages based on health
-if (global.bear_health <= 1000)
+if (global.bear_health <= 1000 && global.bear_stage != 2)
 {
 	global.bear_stage = 2;	
 	global.bear_cooldown_min = 350;
 	global.bear_cooldown_max = 500;
+	audio_play_sound(beartransition,0,false);
 }
-if (global.bear_health <= 500)
+if (global.bear_health <= 500 && global.bear_stage != 3)
 {
 	global.bear_cooldown_min = 250;
 	global.bear_cooldown_max = 400;
 	global.bear_stage = 3;	
+	audio_play_sound(beartransition,0,false);
 }
 
 
