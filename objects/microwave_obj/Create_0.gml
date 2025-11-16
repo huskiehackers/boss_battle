@@ -14,7 +14,7 @@ grounded = false;
 jump_mod = 250.5;
 jump = -50;
 vsp_max = 70;
-hsp_max = 50;
+hsp_max = 100;
 hsp = 0;
 vsp = 0;
 
