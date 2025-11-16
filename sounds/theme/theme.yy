@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"theme",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.8571653,
+  "exportDir":"",
+  "name":"theme",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Main/Audios/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"theme.wav",
+  "volume":1.0,
+}
