@@ -54,8 +54,6 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"WinRoom_fixed","path":"rooms/WinRoom_fixed/WinRoom_fixed.yy",},},
     {"id":{"name":"WinRoomOld","path":"rooms/WinRoomOld/WinRoomOld.yy",},},
-    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"babycry","path":"sounds/babycry/babycry.yy",},},
     {"id":{"name":"babylaugh","path":"sounds/babylaugh/babylaugh.yy",},},
     {"id":{"name":"bearhurt","path":"sounds/bearhurt/bearhurt.yy",},},
