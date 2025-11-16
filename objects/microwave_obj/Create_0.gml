@@ -5,6 +5,9 @@ image_xscale = 2;
 image_yscale = 2;
 
 
+global.is_microwave = true;
+
+
 
 grv = 3;
 grounded = false;
@@ -18,7 +21,7 @@ vsp = 0;
 
 
 ////////////Spawn the microwave at a random x value within a range
-x = random_range(500, 1300);
+x = random_range(400, 1300);
 
 
 
