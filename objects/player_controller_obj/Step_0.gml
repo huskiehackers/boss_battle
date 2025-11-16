@@ -1,4 +1,20 @@
 if (global.player_health <= 0)
 {
-    instance_destroy(player_obj);
+    //instance_destroy(player_obj);
+	player_obj.image_alpha = 0
+	if(!death_alarm_set){
+		alarm[0]=20
+		death_alarm_set = true
+		show_debug_message("dead")
+	}
 }
+
+
+if(global.bear_health<= 0){
+	room_goto(WinRoom_fixed);
+}
+/*if(keyboard_check(ord("M"))){
+	room_goto(WinRoomOld);
+} */
+
+global.time_to_win++;

@@ -1,0 +1,1 @@
+global.bg_music_started = false
