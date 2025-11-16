@@ -1,4 +1,4 @@
-key_interact = keyboard_check_pressed(ord("F"));
+key_interact = keyboard_check_pressed(ord("W"));
 
 ran = random_range(1, 100);
 
