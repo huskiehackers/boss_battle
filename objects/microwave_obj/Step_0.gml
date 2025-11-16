@@ -16,8 +16,12 @@ if (picked_up)
 	//ground so that gravity doesnt affect
 	grounded = true;
 	
-	x = player_obj.x - 5;
-	y = player_obj.y - 150;
+	if ( instance_exists(player_obj) )
+	{
+		x = player_obj.x - 5;
+		y = player_obj.y - 150;
+	}
+	
 }
 
 
