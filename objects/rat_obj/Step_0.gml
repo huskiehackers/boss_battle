@@ -8,14 +8,14 @@ ran = random_range(1, 100);
 
 
 /////////////Walking logic
-if (walk_left)
+if (walk_left && distance_to_object(bear_left_lim > 200))
 {
 	//move left
 	hsp -= move_speed;	
 	//sprite faces left
 	image_xscale = -abs(image_xscale);
 }
-else
+else if (!walk_left && distance_to_object(bear_right_lim) > 200 )
 {
 	//move right
 	hsp += move_speed;	
