@@ -68,8 +68,11 @@ if (!global.bear_on_right)
 //Atack 1
 if (current_attack == 1)
 {
-	instance_create_layer(x, y, "Instances", bear_roll_obj);
-	instance_destroy(self);
+	if ( sprite_index != bearReleaseTheBabyStageTwo && sprite_index != bearReleaseTheBabyStageThree)
+	{
+		instance_create_layer(x, y, "Instances", bear_roll_obj);
+		instance_destroy(self);
+	}
 }
 
 
@@ -77,9 +80,12 @@ if (current_attack == 1)
 //Attack 2
 if (current_attack == 2)
 {
-	//groundpound
-	instance_create_layer(x, y, "Instances", bear_groundpound_obj);
-	instance_destroy(self);
+	if ( sprite_index != bearReleaseTheBabyStageTwo && sprite_index != bearReleaseTheBabyStageThree)
+	{
+		//groundpound
+		instance_create_layer(x, y, "Instances", bear_groundpound_obj);
+		instance_destroy(self);
+	}
 
 }
 
@@ -98,7 +104,7 @@ if ( global.bear_stage == 2 && global.baby_can_spawn)
 	
 }
 
-if ( global.bear_stage == 2 && global.baby_can_spawn)
+if ( global.bear_stage == 3 && global.baby_can_spawn)
 {
 	
 	global.baby_can_spawn = false;

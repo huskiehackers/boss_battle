@@ -18,8 +18,7 @@
     {"$GMSpriteFrame":"v1","%Name":"b4520a8d-9d45-44b1-b5cc-818b21e74dbe","name":"b4520a8d-9d45-44b1-b5cc-818b21e74dbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"3abea846-b1d8-4811-887d-1e4297f0e73c","name":"3abea846-b1d8-4811-887d-1e4297f0e73c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"170de874-da9d-45dc-b263-6f60a7c1b72b","name":"170de874-da9d-45dc-b263-6f60a7c1b72b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"c4b9b830-330e-4583-a568-f593fee94831","name":"c4b9b830-330e-4583-a568-f593fee94831","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"66c19a4e-347f-4ab6-a70a-f8037fed192b","name":"66c19a4e-347f-4ab6-a70a-f8037fed192b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1438d89a-5069-421c-9144-66fb99b63db1","name":"1438d89a-5069-421c-9144-66fb99b63db1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"b07987c3-7857-4bae-84fd-60b1a4b9159d","name":"b07987c3-7857-4bae-84fd-60b1a4b9159d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"9976033a-bb4e-4287-a597-7ce3b7d3f6a4","name":"9976033a-bb4e-4287-a597-7ce3b7d3f6a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"cd6c4c2a-7cab-4948-bb33-3945949bdd1d","name":"cd6c4c2a-7cab-4948-bb33-3945949bdd1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -68,7 +67,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":14.0,
+    "length":13.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -106,29 +105,26 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"170de874-da9d-45dc-b263-6f60a7c1b72b","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d2fa9636-dbc5-4a33-82c7-3b8de4937e42","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c4b9b830-330e-4583-a568-f593fee94831","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4ddc380e-74d9-4110-8e34-eb586629790c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"66c19a4e-347f-4ab6-a70a-f8037fed192b","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f869e17b-6036-4290-86f2-619794c83e9e","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1438d89a-5069-421c-9144-66fb99b63db1","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"de233eab-2933-4f5e-b8d3-4e80562ab0dc","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b07987c3-7857-4bae-84fd-60b1a4b9159d","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4b1277f6-69d6-4c2d-bb1e-fe7994d9c54a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"4b1277f6-69d6-4c2d-bb1e-fe7994d9c54a","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9976033a-bb4e-4287-a597-7ce3b7d3f6a4","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2ab15c1c-77ba-4b78-b3c9-7f3e0f261139","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2ab15c1c-77ba-4b78-b3c9-7f3e0f261139","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd6c4c2a-7cab-4948-bb33-3945949bdd1d","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"96a2dfc0-3f30-4cf9-a466-0aea43c29159","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"96a2dfc0-3f30-4cf9-a466-0aea43c29159","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"533d8141-d394-41f7-b122-e8ef45dc633f","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8817fdd3-b526-4d52-95ab-5be37170e5ca","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"8817fdd3-b526-4d52-95ab-5be37170e5ca","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f88f0e4-a16b-440c-b09b-e4940dfdfa84","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8d0d3d44-5c0a-4888-991e-a8f4982e222a","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"8d0d3d44-5c0a-4888-991e-a8f4982e222a","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df4237d6-8e68-4e4e-8668-a5120266f976","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"14fd95ff-36d2-413d-98d0-f96eb0c0d990","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"14fd95ff-36d2-413d-98d0-f96eb0c0d990","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
