@@ -94,6 +94,7 @@ if ( global.bear_stage == 2 && global.baby_can_spawn)
 	
 	global.baby_can_spawn = false;
 	sprite_index = bearReleaseTheBabyStageTwo
+	global.bear_attacking = true;
 	
 }
 

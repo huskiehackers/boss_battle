@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"babylaugh",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":0,
+  "duration":1.7120827,
+  "exportDir":"",
+  "name":"babylaugh",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Main/Audios/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"babylaugh.mp3",
+  "volume":0.38,
+}

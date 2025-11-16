@@ -11,6 +11,7 @@ if (global.can_take_dmg)
 	
 	//calls a cooldown before the player can take dmg again
 	alarm[0] = 25;
+	audio_play_sound(manhurt,0,false);
 }
 
 
