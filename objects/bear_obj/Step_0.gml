@@ -5,6 +5,32 @@ if (global.bear_health <= 0)
 	instance_destroy(self);	
 }
 
+
+
+//////update sprite for each stage
+if (global.bear_stage == 1)
+{
+	sprite_index = StageOne;	
+}
+
+if (global.bear_stage == 2)
+{
+	sprite_index = StageTwo;
+}
+
+if (global.bear_stage == 3)
+{
+	sprite_index = StageThree;	
+}
+
+
+
+
+
+
+
+
+
 if (!global.bear_attacking && can_attack == true)
 {
 		ran_num = irandom_range(1,2);
