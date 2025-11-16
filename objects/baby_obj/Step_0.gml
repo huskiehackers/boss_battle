@@ -77,7 +77,7 @@ if (instance_exists(microwave_obj))
 if (instance_exists(microwave_obj))
 {
 
-	if ( distance_to_object(microwave_obj) < 2 && can_pickup  )
+	if ( distance_to_object(microwave_obj) < 2 && can_pickup  && microwave_obj.sprite_index != microwaveSpawn )
 	{
 	
 		holding_microwave = true;
@@ -117,6 +117,10 @@ if (holding_microwave && distance_to_object(player_obj) < 5)
 		holding_microwave = false;
 		can_pickup = false;
 		run_away = true;
+		player_obj.grounded = true;
+		player_obj.vsp = - 120;
+		baby_obj.image_blend = make_colour_rgb(200,0,0)
+		alarm[1]=5
 	}
 }
 
@@ -153,6 +157,7 @@ if (place_meeting(x, y + vsp, ground_obj))
 	
 	grounded = true;
 	vsp = 0;
+	
 }
 
 else

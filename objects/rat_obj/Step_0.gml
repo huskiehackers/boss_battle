@@ -1,4 +1,4 @@
-key_interact = keyboard_check_pressed(ord("F"));
+key_interact = keyboard_check_pressed(ord("W"));
 
 ran = random_range(1, 100);
 
@@ -8,14 +8,14 @@ ran = random_range(1, 100);
 
 
 /////////////Walking logic
-if (walk_left)
+if (walk_left && distance_to_object(bear_left_lim > 200))
 {
 	//move left
 	hsp -= move_speed;	
 	//sprite faces left
 	image_xscale = -abs(image_xscale);
 }
-else
+else if (!walk_left && distance_to_object(bear_right_lim) > 200 )
 {
 	//move right
 	hsp += move_speed;	
@@ -71,16 +71,43 @@ if (key_interact && !global.hands_full)
 	//check if the user is within range
 	if ( distance_to_object(player_obj) <= global.interact_range && picked_up == false )
 	{
-		picked_up = true;
-		image_speed = 0;
-		global.hands_full = true;
-		global.holding_rat = true;
-		alarm[0] = 2
+		//if the microwave exists, check that the player is not in range of it it
+		if ( instance_exists(microwave_obj && instance_exists(player_obj)) )
+		{
+			if ( point_distance(microwave_obj.x, microwave_obj.y, player_obj.x, player_obj.y) > global.interact_range )	
+			{
+				picked_up = true;
+				image_speed = 0;
+				global.hands_full = true;
+				global.holding_rat = true;
+				alarm[0] = 2
+			}
+		}
+		
+		else
+		{
+			
+			
+			
+			
+			picked_up = true;
+			image_speed = 0;
+			global.hands_full = true;
+			global.holding_rat = true;
+			alarm[0] = 2
+			
+			
+			
+			
+		}
 	}
+		
+		
+}
 
 
 	
-}
+
 
 
 if ( picked_up )

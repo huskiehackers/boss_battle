@@ -7,6 +7,8 @@ image_yscale = 2;
 
 global.is_microwave = true;
 
+//set sprite to microwave spawn
+sprite_index = microwaveSpawn;
 
 
 grv = 3;
