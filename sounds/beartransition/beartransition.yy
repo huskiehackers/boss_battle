@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":5512,
   "soundFile":"beartransition.mp3",
-  "volume":0.72,
+  "volume":1.0,
 }

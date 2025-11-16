@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":5512,
   "soundFile":"bearhurt.mp3",
-  "volume":0.29,
+  "volume":1.0,
 }
