@@ -23,7 +23,7 @@
   ],
   "name":"explosion_spr",
   "nineSlice":null,
-  "origin":7,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Main/Sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":80,
-    "yorigin":160,
+    "yorigin":80,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

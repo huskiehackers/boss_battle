@@ -106,7 +106,11 @@ if (picked_up && key_interact && full && can_throw)
 	can_throw = false;
 }
 
-if (!picked_up && !grounded)
+
+
+
+
+if (!picked_up && !grounded && sprite_index != explosion_spr)
 {
 x += hsp;
 y += vsp;
