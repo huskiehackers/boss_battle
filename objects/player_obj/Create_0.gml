@@ -10,3 +10,4 @@ vsp = 0;
 global.interact_range = 10;
 global.hands_full = false;
 global.holding_rat = false;
+global.bear_health = 1500;
