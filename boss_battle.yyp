@@ -57,6 +57,7 @@
     {"id":{"name":"ground_spr","path":"sprites/ground_spr/ground_spr.yy",},},
     {"id":{"name":"lavaRock","path":"sprites/lavaRock/lavaRock.yy",},},
     {"id":{"name":"microwave","path":"sprites/microwave/microwave.yy",},},
+    {"id":{"name":"microwaveSpawn","path":"sprites/microwaveSpawn/microwaveSpawn.yy",},},
     {"id":{"name":"microwaveWithRat","path":"sprites/microwaveWithRat/microwaveWithRat.yy",},},
     {"id":{"name":"microwaveWithRatBlink","path":"sprites/microwaveWithRatBlink/microwaveWithRatBlink.yy",},},
     {"id":{"name":"newBear","path":"sprites/newBear/newBear.yy",},},
