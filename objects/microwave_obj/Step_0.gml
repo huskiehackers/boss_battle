@@ -8,7 +8,11 @@ key_interact = keyboard_check_pressed(ord("W"));
 
 
 
-
+if (picked_up && global.hands_full && sprite_index == explosion_spr)
+{
+	global.hands_full = false;
+	picked_up = false;
+}
 
 //player is holding microwave
 if (picked_up)

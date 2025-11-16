@@ -11,17 +11,24 @@ if (global.bear_attacking && alarm_0_set == false)
 
 
 //track stages based on health
-if (global.bear_health <= 1000)
-{
-	global.bear_stage = 2;	
-	global.bear_cooldown_min = 350;
-	global.bear_cooldown_max = 500;
-}
-if (global.bear_health <= 500)
+if (global.bear_health <= 500 && !bear_stage3_triggered)
 {
 	global.bear_cooldown_min = 250;
 	global.bear_cooldown_max = 400;
 	global.bear_stage = 3;	
+	bear_stage3_triggered = true;
+	
+	alarm[4] = 10;
+	layer_background_sprite(layer_background_get_id("Background"), BattleVolcano);
+}
+else if (global.bear_health <= 1000 && !bear_stage2_triggered)
+{
+	global.bear_stage = 2;	
+	global.bear_cooldown_min = 350;
+	global.bear_cooldown_max = 500;
+	bear_stage2_triggered = true;
+	
+	alarm[4] = 10;
 }
 
 

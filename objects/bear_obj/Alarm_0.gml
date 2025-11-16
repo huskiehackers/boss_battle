@@ -1,0 +1,1 @@
+audio_play_sound(babylaugh,0,false);

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bearhurt",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":0,
+  "duration":1.2681422,
+  "exportDir":"",
+  "name":"bearhurt",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Main/Audios/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"bearhurt.mp3",
+  "volume":0.18,
+}

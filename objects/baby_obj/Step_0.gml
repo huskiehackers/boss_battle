@@ -121,6 +121,8 @@ if (holding_microwave && distance_to_object(player_obj) < 5)
 		player_obj.vsp = - 120;
 		baby_obj.image_blend = make_colour_rgb(200,0,0)
 		alarm[1]=5
+		
+		audio_play_sound(babycry,0,false);
 	}
 }
 
