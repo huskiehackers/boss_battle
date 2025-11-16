@@ -1,1 +1,1 @@
-max_rats = 5;
+max_rats = 2;
