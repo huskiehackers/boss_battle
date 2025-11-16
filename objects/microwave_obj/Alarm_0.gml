@@ -7,4 +7,4 @@ blinking = true;
 sprite_index = microwaveWithRatBlink;
 
 //Set alarm for microwave to explode
-alarm[1] = 200;
+alarm[1] = 100;
