@@ -6,30 +6,30 @@ ran = random_range(1, 100);
 /////////////Walking logic
 
 //while holding microwave, strafe right until edge
-if (holding_microwave && x < bear_right_lim.x && !baby_on_right)
+if (holding_microwave && x < bear_right_lim.x - 100 && !baby_on_right)
 {
 	hsp += move_speed;
 }
 
 //while holding microwave, strade left until edge
-if (holding_microwave && x > bear_left_lim.x && baby_on_right)
+if (holding_microwave && x > bear_left_lim.x + 100 && baby_on_right)
 {
 	hsp -= move_speed;
 }
 
 
-if ( baby_on_right && x <= bear_left_lim.x )
+if ( baby_on_right && x <= bear_left_lim.x + 100 )
 {
 	baby_on_right = false;
 }
 
-if (!baby_on_right && x >= bear_right_lim.x)
+if (!baby_on_right && x >= bear_right_lim.x - 100)
 {
 	baby_on_right = true;	
 }
 
 
-
+//////Run away logic
 //player is on your left, run right
 if (run_away && player_obj.x < x)
 {
@@ -41,6 +41,8 @@ if (run_away && player_obj.x >= x)
 {
 	hsp -= move_speed
 }
+
+
 
 
 
@@ -106,7 +108,11 @@ if (instance_exists(microwave_obj))
 if (holding_microwave && distance_to_object(player_obj) < 5)
 {
 		//finds the angle in degrees between player and baby
-	if ( point_direction(x, y, player_obj.x, player_obj.y) > 45 && point_direction(x, y, player_obj.x, player_obj.y) < 135 )
+		/////////////IMPORTANT NOTE: 
+		/////////////If the drop mechanic isnt working properly, tweak the required value of the
+		/////////////players vsp. This ensures the player gets a good fall going before hitting the
+		//////////// baby, otherwise it behaves weirdly.
+	if ( point_direction(x, y, player_obj.x, player_obj.y) > 45 && point_direction(x, y, player_obj.x, player_obj.y) < 135 && player_obj.vsp >= player_obj.vsp_max / 3 )
 	{
 		holding_microwave = false;
 		can_pickup = false;
