@@ -1,18 +1,6 @@
 global.player_health = 3;
 global.can_take_dmg = true;
+global.time_to_win = 0;
+show_debug_log(true)
 
-// initialize references
-hs1 = noone;
-hs2 = noone;
-hs3 = noone;
-
-// find health hearts
-with (health_object) {
-    if (is_health_sprite) {
-        switch (health_index) {
-            case 1: other.hs1 = id; break;
-            case 2: other.hs2 = id; break;
-            case 3: other.hs3 = id; break;
-        }
-    }
-}
+death_alarm_set = false
