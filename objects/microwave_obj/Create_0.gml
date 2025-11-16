@@ -29,7 +29,7 @@ x = random_range(400, 1300);
 
 
 
-
+has_damaged = false;
 full = false;
 blinking = false;
 can_pickup = false;

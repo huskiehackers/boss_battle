@@ -7,6 +7,31 @@ key_interact = keyboard_check_pressed(ord("W"));
 
 
 
+//when get hurt, change sprite flash red
+if ( global.player_health == 2 && damaged1 == false )
+{
+	//change sprite, flash red
+	sprite_index = manHurt;
+	self.image_blend = make_colour_rgb(200,0,0)
+	alarm[0] = 5;
+	damaged1 = true;
+	
+		
+}
+
+
+//when get hurt, change sprite flash red
+if ( global.player_health == 1 && damaged2 == false )
+{
+	//change sprite, flash red
+	sprite_index = manHurt;
+	self.image_blend = make_colour_rgb(200,0,0)
+	alarm[0] = 5;
+	damaged2 = true;
+	
+		
+}
+
 
 
 ////////////////////jump
