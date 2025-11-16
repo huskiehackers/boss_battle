@@ -36,6 +36,7 @@ if (global.bear_stage == 3)
 }
 
 
+//falling ash
 if (global.eruption && !alarm_3_set)
 {
 	alarm[3] = random_range(150, 500)

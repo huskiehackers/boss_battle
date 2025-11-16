@@ -1,0 +1,1 @@
+is_health_sprite = true; // marks it as a UI heart
