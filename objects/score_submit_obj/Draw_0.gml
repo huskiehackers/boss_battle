@@ -8,7 +8,7 @@ if(!global.submitted){
 	draw_text(300, 380, "Name:");
 	draw_text(430, 380, player_name);
 
-	draw_text(500, 300, submit_status);
+	draw_text(500, 380, submit_status);
 
 	//show_debug_message("drawn submit")
 }

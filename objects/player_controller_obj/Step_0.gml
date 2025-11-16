@@ -9,8 +9,12 @@ if (global.player_health <= 0)
 	}
 }
 
-if(keyboard_check(ord("M"))){
-	room_goto(WinRoom);
+
+if(global.bear_health<= 0){
+	room_goto(WinRoom_fixed);
 }
+/*if(keyboard_check(ord("M"))){
+	room_goto(WinRoomOld);
+} */
 
 global.time_to_win++;
