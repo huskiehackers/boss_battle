@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"microbeep",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":0,
+  "duration":3.592344,
+  "exportDir":"",
+  "name":"microbeep",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Main/Audios/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"microbeep.mp3",
+  "volume":0.2,
+}
