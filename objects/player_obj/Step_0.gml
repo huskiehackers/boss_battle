@@ -56,13 +56,13 @@ else
 
 
 
-if ( key_left )
+if ( key_left && x>10 )
 {
 	hsp -= move_speed;
 	image_xscale = -abs(image_xscale);
 }
 
-if ( key_right)
+if ( key_right && x<1910)
 {
 	hsp += move_speed;	
 	image_xscale = abs(image_xscale);
