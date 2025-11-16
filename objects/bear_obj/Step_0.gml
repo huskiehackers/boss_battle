@@ -16,8 +16,7 @@ if (!global.bear_attacking && can_attack == true)
 		
 		global.bear_attacking = true;
 		can_attack = false;
-		//set a timer before bear can attack again
-		alarm[0] = 120;
+		
 }
 
 
