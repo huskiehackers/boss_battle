@@ -27,3 +27,51 @@ if (image_index == 6)
 	instance_destroy(self)
 }
 
+
+////////////////////bear jump
+if ( !jumped )
+{
+	vsp += jump;	
+	jumped = true;
+}
+
+
+
+///////////////gravity
+if (!grounded)
+vsp += grv;
+
+
+
+
+////////////////max speed
+vsp = clamp(vsp, -vsp_max, vsp_max);
+
+
+
+
+////////////////vertical collision
+
+if (place_meeting(x, y + vsp, ground_obj))
+{
+	
+	while ( !place_meeting(x, y + sign(vsp), ground_obj))
+	{
+		y += sign(vsp);
+	}
+	
+	grounded = true;
+	vsp = 0;
+}
+
+else
+{
+	grounded = false;
+}
+
+///////////////gravity
+vsp += grv;
+
+
+if(!grounded)
+y += vsp;
