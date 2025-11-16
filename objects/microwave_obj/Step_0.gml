@@ -2,7 +2,13 @@ key_interact = keyboard_check_pressed(ord("F"));
 
 
 ///////////////mark that the microwave exists every gametick
-global.is_microwave = true;
+//global.is_microwave = true;
+
+
+
+
+
+
 
 //player is holding microwave
 if (picked_up)
@@ -56,6 +62,8 @@ if (key_interact && distance_to_object(player_obj) < global.interact_range && gl
 	full = true;
 	global.holding_rat = false;
 	global.hands_full = false;
+	
+	//alarm to explode
 	alarm[0] = 250;
 }
 
