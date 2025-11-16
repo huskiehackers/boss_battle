@@ -17,6 +17,12 @@ vsp = 0;
 
 
 
+////////////Spawn the microwave at a random x value within a range
+x = random_range(500, 1300);
+
+
+
+
 
 
 full = false;
