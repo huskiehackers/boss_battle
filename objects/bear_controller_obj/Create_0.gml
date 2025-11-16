@@ -1,5 +1,5 @@
 global.bear_on_right = true;
-global.bear_stage = 2;
+global.bear_stage = 1;
 global.baby_can_spawn = true;
 global.eruption = false;
 global.bear_cooldown_min = 500;

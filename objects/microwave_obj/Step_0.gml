@@ -75,7 +75,7 @@ if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_
 }
 
 //if the microwave is full, in range, and user interacts
-if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && full && can_pickup)
+if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && full && can_pickup && !global.hands_full)
 {
 	picked_up = true;
 	can_throw = false;
