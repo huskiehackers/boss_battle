@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"lavaRock",
   "bboxMode":0,
-  "bbox_bottom":28,
-  "bbox_left":8,
-  "bbox_right":23,
+  "bbox_bottom":115,
+  "bbox_left":32,
+  "bbox_right":95,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,7 +19,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":128,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"1a44cc88-329c-4971-b1d7-5feff8379e71","blendMode":0,"displayName":"default","isLocked":false,"name":"1a44cc88-329c-4971-b1d7-5feff8379e71","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -98,5 +98,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":128,
 }
