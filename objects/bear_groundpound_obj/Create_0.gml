@@ -1,10 +1,3 @@
-jump = -25;
-vsp_max = 120;
-vsp = 0;
-grounded = true;
-jumped = false;
-grv = 0.32;
-
 //update sprite based on stage
 if (global.bear_stage == 2)
 {
