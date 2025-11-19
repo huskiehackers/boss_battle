@@ -79,16 +79,24 @@ if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_
 }
 
 //if the microwave is full, in range, and user interacts
+//Update: Added extra criteria to check if the baby is holding the microwave.
 if (key_interact && sprite_index != microwaveSpawn && distance_to_object(player_obj) < global.interact_range && full && can_pickup && !global.hands_full)
 {
+	//If the baby exists AND is not holding the microwave
+	//OR the baby does NOT exists, player can pick up the microwave.
+	if (instance_exists(baby_obj) && !baby_obj.holding_microwave || !instance_exists(baby_obj) )
+	{
+		
 	picked_up = true;
 	can_throw = false;
 	can_pickup = false;
 	
 	global.hands_full = true;
 	
+	
 	//alarm for when can be thrown
 	alarm[3] = 5;
+	}
 }
 
 
