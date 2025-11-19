@@ -4,11 +4,11 @@ ran = random_range(1, 100);
 
 
 
-
 if (x < -30 || x >1920)
 {
-	instance_destroy(self);
+    instance_destroy(self);
 }
+
 
 /////////////Walking logic
 if (walk_left && distance_to_object(bear_left_lim > 200))
@@ -25,6 +25,7 @@ else if (!walk_left && distance_to_object(bear_right_lim) > 200 )
 	//sprite faces right
 	image_xscale = abs(image_xscale);
 }
+
 
 
 
